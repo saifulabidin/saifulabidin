@@ -1,0 +1,18 @@
+# GitHub Profile Configuration
+# This file helps to manage profile settings and features
+
+profile:
+  name: "Saiful Abidin"
+  bio: "Developer | Crypto Enthusiast"
+  website: "https://twitter.com/syaifulosd"
+  location: "Indonesia"
+  email: ""
+
+social:
+  twitter: "syaifulosd"
+  github: "saifulabidin"
+
+features:
+  - readme: true  # Enable README.md as profile description
+  - projects: true # Show pinned projects
+  - sponsors: false # Enable GitHub Sponsors if available
