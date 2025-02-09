@@ -1,10 +1,31 @@
-- 👋 Hi, I’m @saifulabidin
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+### Hi there, I'm Saiful Abidin! 👋
 
-<!---
-saifulabidin/saifulabidin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+💻 **Developer | Crypto Enthusiast**  
+
+---
+
+### 🚀 About Me
+- 👀 I’m interested in **Crypto, Blockchain, and Development**
+- 🌱 I’m currently learning **NEAR Protocol, Smart Contracts, and Full-Stack Development**
+- 💞️ I’m looking to collaborate on **Web3, DeFi, and Open Source Projects**
+- 📫 How to reach me:  
+  📩 **Twitter/X:** [@syaifulosd](https://twitter.com/syaifulosd)  
+  📱 **WhatsApp:** [+62 851 8096 0774](https://wa.me/6285180960774)  
+  🌐 **Portfolio:** *Coming Soon*
+
+---
+
+### 🛠 Tech Stack
+- **Languages:** Python, JavaScript, HTML, CSS, SQL
+- **Frameworks & Tools:** Node.js, React, Express.js, Flask
+- **Blockchain:** Solidity, Rust (exploring), NEAR, Ethereum
+- **Other:** Linux, Docker, System Administration
+
+---
+
+### 📈 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saifulabidin&show_icons=true&theme=radical)
+
+---
+
+🚀 *Let's build something amazing together!*
