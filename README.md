@@ -16,7 +16,7 @@
 ---
 
 ### 🛠 Tech Stack
-- **Languages:** Python, JavaScript, HTML, CSS, SQL
+- **Languages:** Python, JavaScript, HTML, CSS, SQL,Shell
 - **Frameworks & Tools:** Node.js, React, Express.js, Flask
 - **Blockchain:** Solidity, Rust (exploring), NEAR, Ethereum
 - **Other:** Linux, Docker, System Administration
