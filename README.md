@@ -6,7 +6,7 @@
 
 ### 🚀 About Me
 - 👀 I’m interested in **Crypto, Blockchain, and Development**
-- 🌱 I’m currently learning **NEAR Protocol, Smart Contracts, and Full-Stack Development**
+- 🌱 I’m currently learning **Smart Contracts, and Full-Stack Development**
 - 💞️ I’m looking to collaborate on **Web3, DeFi, and Open Source Projects**
 - 📫 How to reach me:  
   📩 **Twitter/X:** [@syaifulosd](https://twitter.com/syaifulosd)  
