@@ -16,12 +16,7 @@
 ---
 
 ### 🛠 Tech Stack
-- **Languages:** Python, JavaScript, HTML, CSS, SQL,Shell
-- **Frameworks & Tools:** Node.js, React, Express.js, Flask
-- **Blockchain:** Solidity, Rust (exploring), NEAR, Ethereum
-- **Other:** Linux, Docker, System Administration
-
----
+- **Languages:** JavaScript, Python, TypeScript, SQL, PHP
 
 ### 📈 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saifulabidin&show_icons=true&theme=radical)
