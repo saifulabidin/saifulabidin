@@ -11,7 +11,7 @@
 - 📫 How to reach me:  
   📩 **Twitter/X:** [@syaifulosd](https://twitter.com/syaifulosd)  
   📱 **WhatsApp:** [+62 851 8096 0774](https://wa.me/6285180960774)  
-  🌐 **Portfolio:** *Coming Soon*
+  🌐 **Portfolio:** *https://sabidzpro.vercel.app/*
 
 ---
 
