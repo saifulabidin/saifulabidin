@@ -26,9 +26,8 @@ jobs:
           # Gunakan 'outputs' untuk menentukan file output.
           # Setiap baris adalah path output yang berbeda.
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            # Jika Anda ingin output GIF, uncomment baris di bawah dan pastikan path-nya benar:
-            # dist/github-contribution-grid-snake.gif
+            dist/github-contribution-grid-snake.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif
 
         # Menjalankan action ini bahkan jika langkah sebelumnya gagal (misalnya, jika tidak ada kontribusi baru)
         # Ini penting agar file SVG tetap ada dan tidak error di README
