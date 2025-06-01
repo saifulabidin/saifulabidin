@@ -19,14 +19,16 @@ jobs:
       - name: Generate Snake animation
         uses: Platane/snk@v3 # Menggunakan versi terbaru dari action snk
         with:
-          # Ganti dengan username GitHub Anda
-          saifulabidin: ${{ github.repository_owner }}
+          # Pastikan nama input ini adalah 'github_user_name'
+          # dan nilainya adalah username GitHub Anda atau variabel di bawah.
+          github_user_name: ${{ github.repository_owner }}
 
-          # Daftar output yang ingin dihasilkan (format: <filename>.<svg|gif>)
-          # svg_out_path akan menghasilkan file SVG yang dioptimalkan untuk GitHub README
-          # gif_out_path akan menghasilkan file GIF (opsional, bisa memakan waktu lebih lama)
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          # gif_out_path: dist/github-contribution-grid-snake.gif # Uncomment jika ingin GIF
+          # Gunakan 'outputs' untuk menentukan file output.
+          # Setiap baris adalah path output yang berbeda.
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            # Jika Anda ingin output GIF, uncomment baris di bawah dan pastikan path-nya benar:
+            # dist/github-contribution-grid-snake.gif
 
         # Menjalankan action ini bahkan jika langkah sebelumnya gagal (misalnya, jika tidak ada kontribusi baru)
         # Ini penting agar file SVG tetap ada dan tidak error di README
