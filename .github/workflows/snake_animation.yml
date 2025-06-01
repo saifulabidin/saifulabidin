@@ -20,7 +20,7 @@ jobs:
         uses: Platane/snk@v3 # Menggunakan versi terbaru dari action snk
         with:
           # Ganti dengan username GitHub Anda
-          github_user_name: ${{ github.repository_owner }}
+          saifulabidin: ${{ github.repository_owner }}
 
           # Daftar output yang ingin dihasilkan (format: <filename>.<svg|gif>)
           # svg_out_path akan menghasilkan file SVG yang dioptimalkan untuk GitHub README
