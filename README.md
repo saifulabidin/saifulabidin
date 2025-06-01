@@ -5,6 +5,10 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=saifulabidin" alt="saifulabidin" /></a> </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saifulabidin/saifulabidin/output/dist/github-contribution-grid-snake.svg" alt="github contribution grid snake animation" />
+</p>
+
 - 🔭 I’m currently working on [PT. Infinity Blessing Indonesia](https://infinityblessing.id/)
 
 - 🌱 I’m currently learning **Rust**
