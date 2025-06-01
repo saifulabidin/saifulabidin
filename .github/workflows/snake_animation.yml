@@ -21,7 +21,7 @@ jobs:
         with:
           # Pastikan nama input ini adalah 'github_user_name'
           # dan nilainya adalah username GitHub Anda atau variabel di bawah.
-          saifulabidin: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}
 
           # Gunakan 'outputs' untuk menentukan file output.
           # Setiap baris adalah path output yang berbeda.
