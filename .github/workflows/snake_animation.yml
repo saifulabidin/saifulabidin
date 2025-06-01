@@ -1,0 +1,44 @@
+name: Generate Snake Animation
+
+on:
+  # Jalankan secara otomatis setiap 6 jam
+  schedule:
+    - cron: "0 */6 * * *" # Anda bisa menyesuaikan frekuensi ini
+
+  # Izinkan menjalankan workflow ini secara manual dari tab Actions
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Snake animation
+        uses: Platane/snk@v3 # Menggunakan versi terbaru dari action snk
+        with:
+          # Ganti dengan username GitHub Anda
+          github_user_name: ${{ github.repository_owner }}
+
+          # Daftar output yang ingin dihasilkan (format: <filename>.<svg|gif>)
+          # svg_out_path akan menghasilkan file SVG yang dioptimalkan untuk GitHub README
+          # gif_out_path akan menghasilkan file GIF (opsional, bisa memakan waktu lebih lama)
+          svg_out_path: dist/github-contribution-grid-snake.svg
+          # gif_out_path: dist/github-contribution-grid-snake.gif # Uncomment jika ingin GIF
+
+        # Menjalankan action ini bahkan jika langkah sebelumnya gagal (misalnya, jika tidak ada kontribusi baru)
+        # Ini penting agar file SVG tetap ada dan tidak error di README
+        # Namun, untuk snk v3, ini mungkin tidak selalu diperlukan karena ia menangani kasus tanpa kontribusi dengan baik.
+        # Pertimbangkan untuk menghapus jika tidak ada masalah.
+        # if: always()
+
+      - name: Push to GitHub
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          # Direktori yang berisi file yang akan di-deploy (harus sama dengan output dari snk)
+          target_branch: output # Nama branch tempat menyimpan file SVG
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
